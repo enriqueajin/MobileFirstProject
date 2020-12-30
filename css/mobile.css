@@ -1,3 +1,27 @@
+/* 
+Cómo colocar estilos en CSS por buenas prácticas:
+
+1. Posicionamiento (static, absolute, relative, fixed)
+2. Modelo de caja (margin, border, padding, content)
+3. Tipografía (tipos, tamaños de fuente, etc.)
+4. Estilos visuales (box-shadows, border-radius, gradient, etc.)
+5. Otros (reglas CSS y más)
+*/
+
+/* variables */
+:root {
+    /* Colores */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,4 +30,5 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Dm Sans', sans-serif;
 }
