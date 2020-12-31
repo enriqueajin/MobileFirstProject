@@ -14,7 +14,7 @@ Cómo colocar estilos en CSS por buenas prácticas:
     --bitcoin-orange: #F7931A;
     --soft-orange: #ffe9d5;
     --secondary-blue: #1a9af7;
-    --soft-blue: #e7f5ff;
+    --soft-blue: #E7F5FF;
     --warm-black: #201e1c;
     --black: #282623;
     --grey: #bababa;
@@ -162,14 +162,25 @@ main {
     font-family: "Inter", sans-serif;
 }
 
+.main-tables-container {
+    margin-bottom: 30px;
+}
+
 .main-currency-table .currency-table--title {
     margin-left: 20px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--bitcoin-orange);
     text-align: left;
+}
+
+.orangetitle {
+    color: var(--bitcoin-orange);
+}
+
+.bluetitle {
+    color: var(--secondary-blue);
 }
 
 .currency-table--container {
@@ -244,8 +255,15 @@ main {
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
-    background-color:  var(--soft-orange);
+    
     border-radius: 8px;
+}
+.orangedate {
+    background-color:  var(--soft-orange);
+}
+
+.bluedate {
+    background-color: var(--soft-blue);
 }
 
 .currency-table--date p {
