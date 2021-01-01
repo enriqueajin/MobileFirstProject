@@ -20,6 +20,7 @@ Cómo colocar estilos en CSS por buenas prácticas:
     --grey: #bababa;
     --off-white: #FaF8F7;
     --just-white: #fff;
+    --card-background: #282623;
 
 }
 
@@ -163,7 +164,7 @@ main {
 }
 
 .main-tables-container {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .main-currency-table .currency-table--title {
@@ -271,4 +272,115 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
     font-weight: 300;
+}
+
+.main-product-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: var(--warm-black);
+}
+
+.potato-logo {
+    position: absolute;
+    left: 43%;
+    top: -11px;
+    width: 41px;
+    height: 24.01px;
+    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/images/division-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-title-container {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 65px;
+    margin-bottom: 30px;
+}
+
+.product--title {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--just-white);
+    text-align: center;
+}
+
+.product--description {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.product-cards-container {
+    width: 90%;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: var(--card-background);
+}
+
+.clock-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/clock.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eye-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/eye.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dollar-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/dollar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.check-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/check-circle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.producto--card-title {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.producto--card-description {
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
