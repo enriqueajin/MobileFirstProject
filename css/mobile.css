@@ -98,10 +98,10 @@ header img {
 
 .header--button span {
     display: inline-block;
-    width: 20px;
-    height: 15px;
-    margin-left: 5px;
-    background-image: url('https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/down.png');
+    width: 13px;
+    height: 8px;
+    margin-left: 7px;
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/down-arrow.svg");
 }
 
 main {
@@ -122,7 +122,7 @@ main {
     width: 200px;
     height: 200px;
     margin: 0 auto;
-    background-image: url('https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/images/Bitcoin.png');
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/img/Bitcoin.svg");
     background-size: cover;
     background-position: center;
 }
@@ -235,7 +235,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/trending-down.png");
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/trending-down.svg");
     background-size: cover;
 }
 
@@ -244,7 +244,7 @@ main {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/trending-up.png");
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/trending-up.svg");
     background-size: cover;
     background-position: cover;
     background-repeat: no-repeat;
@@ -286,9 +286,9 @@ main {
     position: absolute;
     left: 43%;
     top: -11px;
-    width: 41px;
-    height: 24.01px;
-    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/images/division-logo.png");
+    width: 40px;
+    height: 25px;
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/batata.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,7 +331,7 @@ main {
     width: 24px;
     height: 24px;
     display: block;
-    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/clock.png");
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/clock.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -341,7 +341,7 @@ main {
     width: 24px;
     height: 24px;
     display: block;
-    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/eye.png");
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/eye.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,7 +351,7 @@ main {
     width: 24px;
     height: 24px;
     display: block;
-    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/dollar.png");
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/dollar-sign.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -361,7 +361,7 @@ main {
     width: 24px;
     height: 24px;
     display: block;
-    background-image: url("https://upana-my.sharepoint.com/personal/201806846_upana_edu_gt/Documents/assets/icons/check-circle.png");
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/check-circle.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
