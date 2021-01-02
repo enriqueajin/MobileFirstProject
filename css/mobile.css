@@ -18,7 +18,7 @@ Cómo colocar estilos en CSS por buenas prácticas:
     --warm-black: #201e1c;
     --black: #282623;
     --grey: #bababa;
-    --off-white: #FaF8F7;
+    --off-white: #FAF8F7;
     --just-white: #fff;
     --card-background: #282623;
 
@@ -402,4 +402,47 @@ main {
     font-weight: 700;
     text-align: center;
     color: var(--just-white);
+}
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+
+.plans-text-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--off-white);
+}
+
+.plans-text-title {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--warm-black);
+}
+
+.plans-text-description {
+    padding-top: 20px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #757575;
+}
+
+.slide-container {
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+}
+
+.slide-content {
+    margin: 0 auto;
+    width: 190px;
+    height: 247px;
+    background-color: var(--just-white);
 }
