@@ -494,6 +494,10 @@ main {
     background-color: #F44336;
 }
 
+.plan-info-container {
+    padding: 0 5px;
+}
+
 .plan-card--title {
     padding-top: 30px;
     font-size: 1.4rem;
