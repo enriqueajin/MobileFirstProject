@@ -277,6 +277,7 @@ main {
 .main-product-container {
     position: relative;
     width: 100%;
+    min-width: 320px;
     height: auto;
     padding-bottom: 50px;
     background-color: var(--warm-black);
