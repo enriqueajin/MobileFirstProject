@@ -159,13 +159,13 @@ main {
 .main-currency-table {
     width: 70%;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 300px;
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
 
-.main-tables-container {
+.tables-container {
     margin-bottom: 5px;
 }
 
