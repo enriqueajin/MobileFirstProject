@@ -550,3 +550,30 @@ main {
     background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/orange-right-arrow.svg");
     vertical-align: text-bottom;
 }
+
+.main-footer {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bitcoin-orange);
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--just-white);
+}
+
+.footer-links a {
+    text-decoration: none;
+}
