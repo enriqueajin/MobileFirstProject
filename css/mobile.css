@@ -18,7 +18,7 @@ Cómo colocar estilos en CSS por buenas prácticas:
     --warm-black: #201e1c;
     --black: #282623;
     --grey: #bababa;
-    --off-white: #FaF8F7;
+    --off-white: #FAF8F7;
     --just-white: #fff;
     --card-background: #282623;
 
@@ -407,6 +407,7 @@ main {
 .main-plans-container {
     width: 100%;
     min-width: 320px;
+<<<<<<< HEAD
     padding-bottom: 70px;
     text-align: center;
 }
@@ -420,20 +421,40 @@ main {
 
 .plans--title h2 {
     padding-top: 50px;
+=======
+    height: auto;
+}
+
+.plans-text-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--off-white);
+}
+
+.plans-text-title {
+    padding-top: 60px;
+>>>>>>> 1bd70b8a9772a822cc8521b0a18a1120ddb59170
     font-size: 2.4rem;
     line-height: 2.6rem;
     font-weight: 700;
     color: var(--warm-black);
 }
 
+<<<<<<< HEAD
 .plans--title p {
     padding-top: 30px;
+=======
+.plans-text-description {
+    padding-top: 20px;
+>>>>>>> 1bd70b8a9772a822cc8521b0a18a1120ddb59170
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 500;
     color: #757575;
 }
 
+<<<<<<< HEAD
 .plans-container--slider {
     display: flex;
     height: 316px;
@@ -549,4 +570,18 @@ main {
     margin-left: 5px;
     background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/orange-right-arrow.svg");
     vertical-align: text-bottom;
+=======
+.slide-container {
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+}
+
+.slide-content {
+    margin: 0 auto;
+    width: 190px;
+    height: 247px;
+    background-color: var(--just-white);
+>>>>>>> 1bd70b8a9772a822cc8521b0a18a1120ddb59170
 }
