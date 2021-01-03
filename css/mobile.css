@@ -403,3 +403,133 @@ main {
     text-align: center;
     color: var(--just-white);
 }
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--warm-black);
+}
+
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #757575;
+}
+
+.plans-container--slider {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.plans-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 10px 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.recommended, .basic, .expert {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
+.recommended {
+    background-color: var(--bitcoin-orange);
+}
+
+.basic {
+    background-color: var(--secondary-blue);
+}
+
+.expert {
+    background-color: #F44336;
+}
+
+.plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+
+.plan-card--price {
+    padding: 5px 0;
+    font-size:  5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+}
+
+.plan-card--price span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+
+.plan-card--saving {
+    padding-top: 5px;
+    font-size:  1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    color: #757575;
+}
+
+.plan-card--ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: 'Dm Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan-card--ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/orange-right-arrow.svg");
+    vertical-align: text-bottom;
+}
