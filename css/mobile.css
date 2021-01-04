@@ -287,7 +287,7 @@ main {
 
 .potato-logo {
     position: absolute;
-    left: 43%;
+    left: calc(50% - 22px);
     top: -11px;
     width: 40px;
     height: 25px;
@@ -321,10 +321,16 @@ main {
     margin-top: 30px;
 }
 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .product-cards-container {
     width: 90%;
     border-radius: 4px;
-    margin: 0 auto;
+    
     margin-top: 15px;
     padding: 15px;
     background-color: var(--card-background);
@@ -392,7 +398,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: 70vh;
-    background-image: url("https://degranda.github.io/batata-bit/assets/img/bitcoinbaby2x.jpg");
+    background-image: url("https://github.com/degranda/batata-bit/blob/master/assets/img/bitcoinbaby.jpg?raw=true");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
